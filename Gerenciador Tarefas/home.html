@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Dancing+Script&family=Play:wght@700&family=Poiret+One&family=Poppins:ital,wght@0,500;0,800;1,300&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/sim.png">
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>PLANNER SEMANAL</h1>
+    </div>
+
+    <div class="semana">
+        <div class="conteudo">
+            <div class="form">
+                <input id="novaTarefa segunda"   type="text">
+
+                <button id="btnAddTarefa btnseg">
+                    <i class="fa fa-plus"></i>
+                </button>
+
+            </div>
+            
+            <div class="diaSemana">
+                <span>MONDAY</span>    
+            </div>
+
+
+            <ul  class="listaTarefas" id="liSegunda">
+                
+            </ul>
+
+        </div>
+
+        <!--------------------------TERÇA------------------ !-->
+
+        <div class="conteudo">
+            <div class="form">
+                <input id="novaTarefa terca"   type="text">
+
+                <button id="btnAddTarefa btnter">
+                    <i class="fa fa-plus"></i>
+                </button>
+
+            </div>
+            
+            <div class="diaSemana">
+                <span>TUESDAY</span>    
+            </div>
+
+
+            <ul  class="listaTarefas" id="liTerca">
+                
+            </ul>
+
+        </div>
+
+         <!--------------------------QUARTA------------------ !-->
+
+        <div class="conteudo">
+            <div class="form">
+                <input id="novaTarefa quarta"   type="text">
+
+                <button id="btnAddTarefa btnqua">
+                    <i class="fa fa-plus"></i>
+                </button>
+
+            </div>
+            
+            <div class="diaSemana">
+                <span>WEDNESDAY</span>    
+            </div>
+
+
+            <ul  class="listaTarefas" id="liQuarta">
+                
+            </ul>
+
+        </div>
+
+          <!--------------------------QUINTA------------------ !-->
+
+        <div class="conteudo">
+            <div class="form">
+                <input id="novaTarefa quinta"   type="text">
+
+                <button id="btnAddTarefa btnqui">
+                    <i class="fa fa-plus"></i>
+                </button>
+
+            </div>
+            
+            <div class="diaSemana">
+                <span>THURSDAY</span>    
+            </div>
+
+
+            <ul  class="listaTarefas" id="liQuinta">
+                
+            </ul>
+
+        </div>
+
+          <!--------------------------SEXTA------------------ !-->
+
+        <div class="conteudo">
+            <div class="form">
+                <input id="novaTarefa sexta"   type="text">
+
+                <button id="btnAddTarefa btnsex">
+                    <i class="fa fa-plus"></i>
+                </button>
+
+            </div>
+            
+            <div class="diaSemana">
+                <span>FRIDAY</span>    
+            </div>
+
+
+            <ul   class="listaTarefas" id="liSexta">
+                
+            </ul>
+
+        </div>
+
+          <!--------------------------SÁBADO------------------ !-->
+
+        <div class="conteudo">
+            <div class="form">
+                <input id="novaTarefa sabado"   type="text">
+
+                <button id="btnAddTarefa btnsab">
+                    <i class="fa fa-plus"></i>
+                </button>
+
+            </div>
+            
+            <div class="diaSemana">
+                <span>SATURDAY</span>    
+            </div>
+
+
+            <ul   class="listaTarefas" id="liSabado">
+                
+            </ul>
+
+        </div>
+
+          <!--------------------------DOMINGO------------------ !-->
+
+        <div class="conteudo">
+            <div class="form">
+                <input id="novaTarefa domingo"   type="text">
+
+                <button id="btnAddTarefa btndom">
+                    <i class="fa fa-plus"></i>
+                </button>
+
+            </div>
+            
+            <div class="diaSemana">
+                <span>SUNDAY</span>    
+            </div>
+
+
+            <ul   class="listaTarefas" id="liDomingo">
+                
+            </ul>
+
+        </div>
+    </div>
+   
+
+    <div id="janelaEdicao">
+        <button id="fechar">
+            <i class="fa fa-remove"></i>
+        </button>
+
+        <h2 id="IdTarefaEdicao"></h2>
+
+        <hr color="#fff;">
+
+        <form action="">
+            <div class="frm_linha">
+                <input type="text" id="inputTarefaEdicao">
+            </div>
+
+            <div class="frm_linha">
+                <button id="btnAtualiza">
+                    Salvar
+                </button>
+            </div>
+
+            
+        </form>
+        
+    </div>
+
+    <div id="janelaEdicaoFundo"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+@import url('https://fonts.cdnfonts.com/css/school-play');
+@import url('https://fonts.cdnfonts.com/css/vacaciones-ffp');
+@import url('https://fonts.cdnfonts.com/css/neobulletin-college');
+@import url('https://fonts.cdnfonts.com/css/the-led-display-st');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/fundo.png');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.titulo{
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 1.9rem;
+}
+
+.titulo h1{
+    font-family: 'The Led Display St', sans-serif;
+    color: #EF7C8E;
+}
+
+.semana{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 55px;
+    padding-top: 15px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 55px;
+    border-radius: 10px;
+
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 15px;
+}
+
+
+.form input{
+    width: 350px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 1px solid #6dd1ce;
+    outline: none;
+    font-size: 1rem;
+    background:#6dd1ce;
+    font-family: 'Dancing Script', cursive;
+   
+}
+
+.form button{
+    width: 45px;
+    border-radius: 50px;
+    border: 1px solid #6dd1ce;
+    background-color: #6dd1ce;
+    color: #fff;
+    outline: none;
+}
+
+.form button:hover{
+    background-color: #70BFBD;
+    cursor: pointer;
+
+}
+
+.diaSemana{
+    text-align: center;
+    padding: 10px;
+    background-color: #EF7C8E;
+    color: #fff;
+    font-family: 'NeoBulletin College', sans-serif;
+    font-size: 1.9rem;
+    letter-spacing: 3px;
+}
+
+.listaTarefas{
+    list-style: none;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;   
+}
+
+.listaTarefas li{
+    padding: 10px;
+    background: #dbdbdb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.btnAcao{
+    border-radius: 20px;
+    border: 1px solid #FFDE59;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background-color: #FFDE59;
+    color: white;
+}
+
+.btnAcao:hover{
+    background-color: #e6c231;
+
+}
+.abrir{
+    display: block !important;
+}
+
+
+#janelaEdicaoFundo{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 100;
+    right: 0;
+    display: none;
+    
+}
+
+
+#janelaEdicao{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #1e8fc8;
+    width: 415px;
+    border-radius: 20px;
+    border-style: dashed;
+    z-index: 200;
+    display: none;
+    
+}
+
+
+#janelaEdicao h2{
+    font-family: 'School Play', sans-serif;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #EF7C8E;
+    letter-spacing: 1px;
+    
+}
+
+#janelaEdicao img{
+    width: 30px;
+}
+
+
+#fechar{
+    position: absolute;
+    top: -25px;
+    right: -15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #EF7C8E;
+    background: #EF7C8E;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+form{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.frm_linha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+
+.frm_linha input{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #6dd1ce;
+    font-size: 1.2rem;
+    background-color: #fff;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.frm_linha button{
+    background: #EF7C8E;
+    border: 1px solid #ffff16;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 40px;
+    font-size: 1.2rem;
+    outline: none;
+    font-family: 'Vacaciones ffp', sans-serif;
+}
+
+.frm_linha button:hover{
+    background: #f2697d;
+}
+
