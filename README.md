@@ -31,20 +31,20 @@ Open With Live Server
 
 **Tela Inicial.**
 
-![Tela Inicial](image.png)
+![Tela Inicial](./Gerenciador%20Tarefas/Assets/image.png)
 
 
 **Para ```Adiconar``` alguma tarefa basta clicar no campo de texto, digitar e clicar ```enter``` ou no botão de ```➕``` ao lado do campo.**
 
-![Tarefas](image-2.png)
+![Tarefas](./Gerenciador%20Tarefas/Assets/image-2.png)
 
 **Para ```Editar``` alguma tarefa basta clicar no botão de ```✏``` e abrirá essa tela para você editar sua tarefa.**
 
-![Editar](image-3.png)
+![Editar](./Gerenciador%20Tarefas/Assets/image-3.png)
 
 **Para ```Excluir``` alguma tarefa basta clicar no botão de ```🗑``` e aparecerá um alert para você excluir ou não sua tarefa.**
 
-![Alt text](image-4.png)
+![Alt text](./Gerenciador%20Tarefas/Assets/image-4.png)
 
 ## 🛠️ Construído com
 
